@@ -11,39 +11,113 @@
     <TextView
         android:id="@+id/roomName01"
         android:background="@drawable/round"
+        android:backgroundTint="#ffc0cb"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="10dp"
         android:text="방이름입니다"
         android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
         />
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="320dp"
         android:orientation="horizontal"
-        android:layout_margin="10dp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
         <!--유저 이미지 테스트-->
 
         <TableRow>
             <ImageView
-                android:id="@+id/u1_image01"
+                android:id="@+id/u1_RoomImage"
                 android:src="@drawable/c1"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
-                android:layout_margin="20dp"/>
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
             <ImageView
-                android:id="@+id/u2_image01"
+                android:id="@+id/u2_RoomImage"
                 android:src="@drawable/c1"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
-                android:layout_margin="20dp"/>
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/u3_RoomImage"
+                android:src="@drawable/c1"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/u4_RoomImage"
+                android:src="@drawable/c1"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
         </TableRow>
     </TableLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/roleEx"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#99ff99"
+            android:text="규칙설명"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/raddy"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#99ff99"
+            android:text="준비"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/chatHistory"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#ffc0cb">
+        </ScrollView>
+
+
+        <EditText
+            android:id="@+id/chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:backgroundTint="#ffffff"
+            android:text="  채팅:"/>
 
     </LinearLayout>
 

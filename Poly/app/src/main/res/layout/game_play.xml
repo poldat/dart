@@ -24,31 +24,34 @@
             android:id="@+id/playerNo1"
             android:src="@drawable/c1"
             android:layout_width="70dp"
-            android:layout_height="100dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             />
         <ImageView
+            android:id="@+id/playerNo2"
             android:src="@drawable/c1"
             android:layout_width="70dp"
-            android:layout_height="100dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             />
         <ImageView
+            android:id="@+id/playerNo3"
             android:src="@drawable/c1"
             android:layout_width="70dp"
-            android:layout_height="100dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             />
         <ImageView
+            android:id="@+id/playerNo4"
             android:src="@drawable/c1"
             android:layout_width="70dp"
-            android:layout_height="100dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
