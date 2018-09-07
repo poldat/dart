@@ -24,7 +24,10 @@
         <activity android:name=".GameRoomActivity"
             android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".MenualActivity"/>
+        <activity android:name=".GamePlayActivity"/>
 
-   </application>
+
+
+    </application>
 
 </manifest>

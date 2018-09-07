@@ -14,8 +14,8 @@ public class GameRoomActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_room);
 
-       Button ex_btn = (Button)findViewById(R.id.ex_btn);
-        ex_btn.setOnClickListener(new View.OnClickListener() {
+       Button menual_btn = (Button)findViewById(R.id.menual_btn);
+        menual_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MenualActivity.class);
@@ -23,6 +23,16 @@ public class GameRoomActivity extends AppCompatActivity {
             }
         });
 
+
+        Button ready_btn = findViewById(R.id.ready);
+
+        ready_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), GamePlayActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
