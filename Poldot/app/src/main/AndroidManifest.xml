@@ -25,6 +25,7 @@
             android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".MenualActivity"/>
         <activity android:name=".GamePlayActivity"/>
+        <activity android:name=".RankingActivity"/>
 
 
 

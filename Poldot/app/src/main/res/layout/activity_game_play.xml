@@ -7,8 +7,8 @@
     android:background="@drawable/background">
     <ImageView
         android:src="@drawable/dart"
-        android:layout_width="290dp"
-        android:layout_height="290dp"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
         android:layout_margin="5dp"
         android:layout_gravity="center_horizontal"
         />
