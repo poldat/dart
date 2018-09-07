@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 public class LobbyActivity extends AppCompatActivity{
     Button create_room_btn;
-
+    Button ranking_btn;
 
     private ArrayList<HashMap<String,String>> Data = new ArrayList<HashMap<String, String>>();
     private HashMap<String,String> InputData1 = new HashMap<>();
@@ -28,7 +28,7 @@ public class LobbyActivity extends AppCompatActivity{
         setContentView(R.layout.activity_lobby);
 
         create_room_btn = findViewById(R.id.create);
-
+        ranking_btn = findViewById(R.id.ranking);
         create_room_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +36,16 @@ public class LobbyActivity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+
+
+        ranking_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),RankingActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         listView =(ListView)findViewById(R.id.List_view);

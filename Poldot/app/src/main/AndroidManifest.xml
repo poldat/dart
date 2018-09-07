@@ -26,6 +26,8 @@
         <activity android:name=".MenualActivity"/>
         <activity android:name=".GamePlayActivity"/>
         <activity android:name=".RankingActivity"/>
+        <activity android:name=".GameResultActivity"/>
+
 
 
 

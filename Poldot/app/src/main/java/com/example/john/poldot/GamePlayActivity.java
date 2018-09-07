@@ -18,7 +18,7 @@ public class GamePlayActivity extends AppCompatActivity{
         next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),RankingActivity.class);
+                Intent intent = new Intent(getApplicationContext(),GameResultActivity.class);
                 startActivity(intent);
             }
         });
